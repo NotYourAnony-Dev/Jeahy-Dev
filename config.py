@@ -2,8 +2,8 @@ import os
 
 class Config:
     # ── Bot Credentials ──────────────────────────────────
-    BOT_TOKEN    = os.getenv("BOT_TOKEN", "8636562149:AAHaRFAvVcLQJEswSb_ZxL4-IxLWR2RYWBE")
-    OWNER_ID     = int(os.getenv("OWNER_ID", "8695322751"))
+    BOT_TOKEN    = os.getenv("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
+    OWNER_ID     = int(os.getenv("OWNER_ID", "0"))
 
     # ── Identity ─────────────────────────────────────────
     BOT_NAME     = "Jaehy Bot"
